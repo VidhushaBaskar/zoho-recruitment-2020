@@ -1,0 +1,10 @@
+a = input("")
+l = len(a)
+#print(l)
+#print(a[l//2])
+m = l//2
+r = a[m:]+a[0:m]
+#print(r)
+for i in range(1,l):
+    print(r[0:i])
+    i = i+1
